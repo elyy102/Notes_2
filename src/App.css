@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;400;500;600;700&display=swap');
+
+* {
+  font-family: 'Montserrat Alternates', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #d6c2ff;
+}
+
+.wrapper {
+  max-width: 1366px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.task_add {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.task_add_h1 {
+  color: white;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.task_add_ib {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.task_add_input {
+  width: 35vw;
+  height: 7vh;
+  background-color: #F3F3F3;
+  border-radius: 25px;
+  border: none;
+  padding-left: 15px;
+  font-size: 18px;
+  font-weight: 300;
+  color: #626262;
+}
+
+.task_add_input ::placeholder {
+  font-size: 18px;
+  font-weight: 300;
+  color: #626262;
+}
+
+input:focus {
+outline: solid 2px #B28DFF;
+}
+
+.task_add_btn {
+  width: 9vw;
+  border-radius: 25px;
+  border: none;
+  background-color: #B28DFF;
+  cursor: pointer;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.my_task {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.my_task_back {
+  text-decoration: line-through;
+}
+
+.task_btn {
+  width: 3.7vw;
+  border-radius: 15px;
+  border: none;
+  background-color: #B28DFF;
+  cursor: pointer;
+}
+
+.task_btn img {
+  background-color: transparent;
+}
+
+.todo {
+  display: flex;
+  align-items: center;
+  width: 30svw;
+  height: fit-content;
+  min-height: 7vh;
+  background-color: #F3F3F3;
+  border-radius: 25px;
+  padding-left: 15px;
+  color: #626262;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+input {
+  border: none;
+}
